@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/estilos.css">
+</head>
+<body>
+    <nav>
+        <a href="{{ site.baseurl }}/">Inicio</a>
+        <a href="{{ site.baseurl }}/plataformas.html">Plataformas</a>
+        <a href="{{ site.baseurl }}/contacto.html">Contacto</a>
+        <button id="tema">Modo oscuro</button>
+    </nav>
+    <main>
+        {{ content }}
+    </main>
+    <footer>Antonio - 2º DAW</footer>
+    <script src="{{ site.baseurl }}/assets/script.js"></script>
+</body>
+</html>
